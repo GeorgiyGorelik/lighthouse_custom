@@ -1,4 +1,4 @@
-import logger from "../../logger/logger.js";
+import logger from "logger-module/logger.js";
 import Element from './element.js';
 import Button from './button.js';
 const TYPE_KEY_BY_KEY_TIMEOUT = 100;

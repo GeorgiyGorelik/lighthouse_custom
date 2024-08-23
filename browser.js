@@ -1,9 +1,9 @@
 import puppeteer from 'puppeteer-core';
-import logger from "../logger/logger.js";
-import { Browser } from '../settings/browser.js';
+import logger from "logger-module/logger.js";
+import { Browser } from 'settings-module/browser.js';
 import { startFlow } from 'lighthouse/core/index.js';
 import { exec } from 'child_process';
-import { configDesktop, configMobile, configMobile3G, configMobile4G, configMobile4GSlow } from '../settings/lighthouse.js';
+import { configDesktop, configMobile, configMobile3G, configMobile4G, configMobile4GSlow } from 'settings-module/lighthouse.js';
 import * as os from 'os';
 
 class LighthouseBrowser {

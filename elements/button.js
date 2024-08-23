@@ -1,4 +1,4 @@
-import logger from "../../logger/logger.js";
+import logger from "logger-module/logger.js";
 import Element from './element.js';
 
 export default class Button extends Element {
