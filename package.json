@@ -5,6 +5,7 @@
   "description": "Core functionality of the Lighthouse UI framework",
   "author": "Sergei Pashkevich",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "logger-module": "git+https://github.com/iBombit/lighthouse_custom.git#logger",
     "settings-module": "git+https://github.com/iBombit/lighthouse_custom.git#settings"
