@@ -1,4 +1,4 @@
-import * as params from '../settings/testParams.js';
+import * as params from 'settings-module/testParams.js';
 import Button from './elements/button.js';
 import TextField from './elements/textField.js';
 import UploadField from './elements/uploadField.js';
