@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "description": "logger functionality for the Lighthouse UI framework",
   "author": "Sergei Pashkevich",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
