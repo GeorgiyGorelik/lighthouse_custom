@@ -1,0 +1,8 @@
+{
+  "name": "core-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Core functionality of the Lighthouse UI framework",
+  "author": "Sergei Pashkevich",
+  "license": "ISC"
+}
