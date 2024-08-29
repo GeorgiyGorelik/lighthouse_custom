@@ -114,7 +114,11 @@ class LighthouseBrowser {
     if (!link) {
       link = this.page.url();
     }
-    await this.flow.navigate(link, { name: name, configContext: { settingsOverrides: { disableStorageReset: true } } });
+    try {
+      await this.flow.navigate(link, { name: name, configContext: { settingsOverrides: { disableStorageReset: true } } });
+    } catch (error) {
+      throw new Error(error);
+    }
     await this.waitTillRendered(timeout);
   }
 
